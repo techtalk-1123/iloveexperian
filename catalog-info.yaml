@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "iloveexperian"
+  description: "demo for tech talk"
+  annotations:
+    github.com/project-slug: techtalk-1123/iloveexperian
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/guests"
